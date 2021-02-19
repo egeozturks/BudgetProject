@@ -23,7 +23,7 @@ namespace BudgetProjectBror
             dgrwShopping.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             var TotalShoppingButtonText = "Toplam Harcanan Parayı Hesapla";
-            var RemainingMoneyButtonText = "Kalan Harcanabilir Parayı Hesapla";
+            var RemainingMoneyButtonText = "Geriye Kalan Harcanabilir Parayı Hesapla";
 
             btnTotalShopping.Text = TotalShoppingButtonText;
             btnRemainingMoney.Text = RemainingMoneyButtonText;
@@ -38,7 +38,7 @@ namespace BudgetProjectBror
 
         private void btnRemainingMoney_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Harcanabilir Para : " + shoppingManager.CalculateRemainingMoney() + " Kron"); //This line didn't use .ToString() cause you used string words before the method
+            MessageBox.Show("Geriye Kalan Harcanabilir Para : " + shoppingManager.CalculateRemainingMoney() + " Kron"); //This line didn't use .ToString() cause you used string words before the method
         }
     }
 }
