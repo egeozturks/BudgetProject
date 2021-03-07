@@ -40,6 +40,10 @@ namespace BudgetProjectBror
                 new Shopping{Date = "4 Februari" , Place = "Pad" , Cost = 240},
                 new Shopping{Date = "4 Februari" , Place = "Hallon" , Cost = 149},
                 new Shopping{Date = "7 Februari" , Place = "Ullared swish Samir" , Cost = 400},
+                new Shopping{Date = "3 March" , Place = "Hallon" , Cost = 149},
+                new Shopping{Date = "4 March" , Place = "Padel mustafa swish", Cost = 70},
+                new Shopping{Date = "5 March" , Place = "Samir swish", Cost = 450},
+                new Shopping{Date = "7 March", Place = "ICA Hajen", Cost = 120},
             };
         }
 
